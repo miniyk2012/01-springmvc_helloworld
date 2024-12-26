@@ -22,7 +22,7 @@ public class HelloController {
         // 响应
         // redirect 重定向
         // forward  转发  默认
-        return "index.jsp";
+        return "forward:index.jsp";
     }
 
 }
